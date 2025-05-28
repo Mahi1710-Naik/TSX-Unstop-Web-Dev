@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My First Web Page</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: inline-block;
+    }
+
+    nav li {
+      display: inline-block;
+      margin: 0 15px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    article {
+      margin-bottom: 20px;
+      background: #fff;
+      padding: 15px;
+      border: 1px solid #ddd;
+    }
+
+    article h2 {
+      color: darkblue;
+    }
+
+    article p {
+      font-size: 16px;
+    }
+
+    aside {
+      margin-top: 20px;
+    }
+
+    button {
+      padding: 10px 15px;
+      font-size: 16px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My First Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <h2>About This Page</h2>
+      <p>This is a simple webpage created using HTML, styled with CSS, and includes a bit of JavaScript.</p>
+      <p>It's the perfect place to start learning web development!</p>
+    </article>
+
+    <aside>
+      <button onclick="greetUser()">Click Me</button>
+    </aside>
+  </main>
+
+  <footer>
+    <p>© 2025 My First Site. All rights reserved.</p>
+  </footer>
+
+  <script>
+    console.log("Page has loaded!");
+
+    function greetUser() {
+      alert("Hello, welcome to my first site!");
+    }
+  </script>
+
+</body>
+</html>
